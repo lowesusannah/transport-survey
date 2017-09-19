@@ -6,9 +6,41 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Tansportation Survey</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Transportation Survey</h1>
+      </div>
+      <form id="survey">
+        <div class="form-group">
+          <p>I use the following methods to get to work:</p>
+          <input type="checkbox" name="work-transport" value="bike">
+          <label>Bike</label></br>
 
+          <input type="checkbox" name="work-transport" value="car">
+          <label>Car</label></br>
+
+          <input type="checkbox" name="work-transport" value="bus">
+          <label>Bus</label></br>
+
+          <input type="checkbox" name="work-transport" value="walking">
+          <label>Walking</label></br>
+
+          <input type="checkbox" name="work-transport" value="other">
+          <label>Other</label></br>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit!</button>
+        </div>
+      </form>
+      <div class="results well">
+        <h2>You use these transportation methods:</h2>
+        <ul>
+        </ul>
+      </div>
+
+    </div>
   </body>
 </html>
